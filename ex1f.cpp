@@ -5,16 +5,12 @@
 using namespace std;
 int main(){
     setlocale(LC_ALL, "pt_BR.UTF-8");
-
-    int num, num1 = 1, i = 0;
+    int num;
 
     cout << "Digite um número: ";
     cin >> num;
 
-    while (i <= num && i % 2 == 0){
+    for(int i = 1; num > i; i+2){
         cout << i;
-         i++;
-         i++;
     }
 }
-//num % 2 == 0
