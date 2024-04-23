@@ -13,7 +13,10 @@ int main(){
     cout << "Digite outro número maior que o primeiro número digitado: ";
     cin >> num2;
 
-    for(int i = 1;i > num && i <= num2; i+=2){
+    for(int i = num;i <= num2; i++){
+    if(i % 2 != 0){
         cout << i;
+        cout << "\n";
+        }
     }
 }
